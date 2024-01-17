@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(66, 65, 65);
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+header>div{
+ width: 5000px;
+ height: 50px;
+margin-left: 20px;
+}
+.nav>a{
+    color: white;
+    display: inline-flex;
+    text-align: left;
+    flex-direction:column;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/*start of part 1*/
+.part1{
+    height:700px;
+    width: 100%;
+    background-image: url('./pics/dj.jpg');
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.part1> h1, h2, h3{
+    padding: 30px;
+}
+.part1> h1{
+    padding: 30px;
+    font-size: 4rem;
+    position: relative;
+    bottom:80px;
+}
+.part1> h2{
+    padding: 30px;
+    font-size: 2rem;
+    position: relative;
+    bottom:105px;
+}
+.part1>h3{
+    padding: 30px;
+    width: 80rem;
+    position: relative;
+    bottom:125px;
+}
+
+
+
+
+/*start of part 2*/
+.part2{
+    background: linear-gradient(180deg, #231557 0%, #44107A 29%, #ca1551 60%, #4d023a 100%);
+    color: white;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.part2>h1{
+font-size: 3em;
+}
+.part2>h2{
+font-size: 2em;
+}
+.part2>h3{
+   width: 1300px;
+   font-size:1.2em;
+    }
+.part2>a{
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(241, 59, 8);
+    background-color: rgb(218, 52, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.part2>h4{
+    position: relative;
+    top: 30px;
+    }
+.part2>img{
+    height: 500px ;
+    width: 900px;
+    position: relative;
+    top: 70px;
+}
+
+/*start of part 3*/
+
+.part3{
+    background: linear-gradient(180deg, #231557 0%, #44107A 29%, #ca1551 60%, #4d023a 100%);
+    color: white;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.part3>a{
+    height: 40px;
+width: 100px;
+background: white;
+align-items: center;
+justify-content: center;
+display: flex;
+text-decoration: none;
+color: blue;
+}
+.part3>h1,h2,a,img{
+    position: relative;
+}
+.part3>img{
+    height: 500px ;
+    width: 900px;
+    position: relative;
+    top: 40px;
+}
+
+
+/*start of part 4*/
+
+.part4{
+    background-image: url('./pics/planet2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.part4>h1{
+position: relative;
+bottom: 60px;
+font-size: 35px;
+
+}
+.part4>p{
+    color: white;
+    width: 900px;
+    text-align: justify;
+    position: relative;
+    bottom: 35px;
+    font-size: 20px;
+
+}
+.part4>img{
+    height: 300px;
+    width: 400px;
+    border-radius: 90px;
+    position: relative;
+    bottom: 500px;
+    left: 150px;
+}
+
+/*start of part 5*/
+
+
+.part5{
+    height:350px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+}
+.gift{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    text-align: justify;
+    position: relative;
+    left: 70px;
+    top: 100px;
+    
+}
+.part5>h1,hr{
+margin: 10px 0px;
+}
+.part5>img{
+    height: 300px;
+}
+.part5>a{
+    position: relative;
+    right: 750px;
+    top: 100px;
+    text-decoration: none;
+    border: #231557 1px solid;
+    height: 35px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(59, 79, 232);
+    font-weight: 600;
+}
+
+
+/*start of part 6*/
+.part6{
+height: 190px;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+align-items: center;
+justify-content: space-evenly;
+background-color: rgb(52, 46, 46);
+color: white;
+padding: 0px 50px 0px 210px;
+
+}
+
+.Info>p, a{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    color: gainsboro;
+    font-size: smaller;
+    text-decoration: none;
+
+}
+.Info>p{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+    text-underline-offset: 10px;
+    text-decoration-color: gray;
+    font-size: 15px;
+    padding:0px 0px 20px 0px;
+    color: white;
+    font-weight: 600;
+}
+
+/*start of Footer*/
+
+footer{
+    background-color:  rgb(66, 65, 65);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
+
+.nav>a:hover{
+    background-color:rgb(91, 85, 85);
+    height: 50px;
+    align-items: center;
+
+}
+.part2>a:hover{
+background-color: rgb(245, 67, 67);
+}
+.part3>a:hover{
+    background-color: gainsboro;
+
+}
+.part5>a:hover{
+    background-color:red;
+    color: black;
+    }
+    

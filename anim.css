@@ -1,0 +1,17 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(250, 231, 215);
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(61, 95, 207);
+    transition: transform 2s ease-in;
+}
+
+
+.parent:hover>.child{
+    transform: translateX(400px);
+}
